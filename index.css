@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 500px;
+    width: 600px;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 1px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    margin-bottom: 120px;
+    background-color: darkslateblue;
+    color: #eee;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+button:active{
+    background-color:  rgb(169, 162, 213);
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    background-color: ivory;
+}
